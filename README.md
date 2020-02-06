@@ -1,1 +1,1 @@
-Rent Calculation App
+Rent Bill Calculation App

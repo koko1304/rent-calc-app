@@ -39,7 +39,7 @@ class App extends React.Component {
 
 		for (var i = 1; i <= calculate.length; i++) {
 			if (i % 3 === 0) {
-				result = "," + calculate[calculate.length - i] + result
+				result = "," + calculate[calculate.length - i] + result;
 			} else {
 				result = calculate[calculate.length - i] + result;
 			}
@@ -105,7 +105,9 @@ class App extends React.Component {
 							</div>
 						</div>
 						<hr className="my-4" />
-						<div className="mb-4 h2">{this.state.result + " R"}</div>
+						<div className="mb-4 h2">
+							{this.state.result + " R"}
+						</div>
 						<button
 							className="btn btn-primary btn-lg"
 							type="submit"

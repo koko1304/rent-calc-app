@@ -5,7 +5,7 @@ class App extends React.Component {
 	constructor(props) {
 		super(props);
 
-		this.state = { result: "" };
+		this.state = { result: "0" };
 	}
 
 	renderField({ placeholder, type, input, label, meta: { touched, error } }) {
